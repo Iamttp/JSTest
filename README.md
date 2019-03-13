@@ -3,7 +3,7 @@
 #### 开发环境：
 * ubuntu vscode Firefox
 #### html css笔记:
-* [HTML CSS](/myHtml/README.md)
+* [HTML CSS](/README2.md)
 
 #### javascript的document:
 > ###### 对象类型：document
