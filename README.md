@@ -8,6 +8,8 @@
 
 * [HTML CSS](/README2.md)
 
+## javascript笔记
+
 ### javascript的document
 
 > #### 对象类型：document
@@ -114,3 +116,55 @@ Math.PI();
 具体实现可参考
 
 * [c03.js](/js/c03.js)
+
+### javascript 事件
+
+#### 事件举例：
+
+* 鼠标点击
+* 页面或图像载入
+* 鼠标悬浮于页面的某个热点之上
+* 在表单中选取输入框
+* 确认表单
+* 键盘按键
+
+注意：事件通常与函数配合使用，当事件发生时函数才会执行。
+
+#### javascript 事件处理步骤
+
+1. 选中需要使用脚步进行事件响应的元素节点
+2. 声明需要在选中节点上响应触发的事件
+3. 指定当事件发生时需要运行的代码
+
+#### 事件绑定到元素的三种方法
+
+* HTML事件处理程序属性（不要使用）
+* 传统的DOM事件处理程序
+
+```javascript
+function checkUsername(){
+  //TODO:
+}
+
+var el = document.getElementById("username");
+el.onblur = checkUsername
+```
+
+* 第2级DOM监听器
+
+```javascript
+function checkUsername(){
+  //TODO:
+}
+
+var el = document.getElementById("username");
+el.addEventListener('blur',checkUsername,false);
+```
+
+##### 示例程序：c03.html
+
+* [c03.html](/html/c03.html)
+* [c04.js](/js/c04.js)
+* [c02.css](/css/c02.css)
+
+> ![avatar](example.png)

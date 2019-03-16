@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JavaScript &amp; jQuery - Chapter 6: Events - Example</title>
+  <link rel="stylesheet" href="../css/c02.css" />
+</head>
+
+<body>
+  <div id="page">
+    <h1>List King</h1>
+    <h2 id="noteName">Audio Note</h2>
+    <!-- 当提交表单时，表单数据会提交到名为 "http://example.org/" 的页面： -->
+    <form action="http://example.org/">
+      <!-- for 属性规定 label 与哪个表单元素绑定。 -->
+      <label for="noteInput">Enter note name:</label>
+      <input type="text" id="noteInput" />
+      <div id="buttons">
+        <!-- 拥有一个data-state属性，按下后由record改为pause -->
+        <a data-state="record" href="">record</a>
+      </div>
+    </form>
+  </div>
+  <script src="../js/c04.js"></script>
+</body>
+
+</html>
