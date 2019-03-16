@@ -45,21 +45,21 @@
 > #### 文档对象模型：
 > ![avatar](ct_htmltree.gif)
 > #### 全局javascript对象：
-> String
+> `String`
 >
-> Number
+> `Number`
 >
-> Boolean
+> `Boolean`
 >
-> Date
+> `Date`
 >
-> Math
+> `Math`
 >
-> RegEx
+> `RegEx`
 >
 
 ```javascript
-//浏览器对象模型example:
+//浏览器对象模型 example:
 //产生一个浏览器对话框
 window.print();
 //设备像素宽度
@@ -78,3 +78,35 @@ hotel.toUpperCase();
 //返回PI
 Math.PI();
 ```
+
+### javascript DOM
+
+#### 访问并更新DOM树
+
+1. 定位到与需要操作的元素所对应的节点。
+2. 使用它的文本内容、子元素或属性。
+
+##### 一、访问元素
+
+单个元素：
+&emsp;&emsp; `getElementById`
+&emsp;&emsp; `querySelector`
+多个元素：
+&emsp;&emsp; `getElementsByClassName`
+&emsp;&emsp; `getElementsByTagName`
+&emsp;&emsp; `querySelectorAll`
+元素间遍历：
+&emsp;&emsp; `parentNode`
+&emsp;&emsp; `previousSibling`、`nextSibling`
+&emsp;&emsp; `firstChild`、`lastChild`
+
+##### 二、操作这些元素
+
+访问、更新文本节点
+&emsp;&emsp; `nodeValue`
+操作HTML内容
+&emsp;&emsp; `innerHTML`
+&emsp;&emsp; `textContent`
+&emsp;&emsp; `createElement`、`createTextNode`
+访问或更新属性
+&emsp;&emsp; `className`、`id`
