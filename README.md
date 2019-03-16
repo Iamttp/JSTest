@@ -110,3 +110,7 @@ Math.PI();
 &emsp;&emsp; `createElement`、`createTextNode`
 访问或更新属性
 &emsp;&emsp; `className`、`id`
+
+具体实现可参考
+
+* [c03.js](/js/c03.js)
