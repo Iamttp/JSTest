@@ -1,11 +1,13 @@
 # web前端快速笔记(html css)
 
 * html元素
+
 ```html
 <p class="fruit">peach</p>
 ```
 
 * html模板
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
